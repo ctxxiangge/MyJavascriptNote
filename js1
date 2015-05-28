@@ -1,0 +1,30 @@
+<!doctype html>
+<!--这个是html5规范的声明抬头-->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js－1</title>
+</head>
+
+<body>
+	<script src="js-1.js">
+    	//从外部导入
+		/* */
+    </script>
+    
+    <script>
+		//js关键字的大小写敏感
+		document.write("hello2");
+	</script>
+    
+    <script>
+		document.write("<h1>标签<h1>");
+	</script>
+    
+    <p id="pid"></p>
+    <script>
+		document.getElementById("pid").innerHTML="chentx";
+	</script>
+    
+</body>
+</html>
